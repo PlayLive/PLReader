@@ -1,8 +1,7 @@
-![PLReader](https://github.com/PlayLive/PLReader/PLReader.png)
+![PLReader Logo](https://github.com/PlayLive/PLReader/blob/master/PLReader.png)
 
-[![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/PlayLive/PLReader/LICENSE)
+[![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/PlayLive/PLReader/blob/master/LICENES)
 [![Swift 3](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org)
-[![WeiBo: @放飞吧小熊](http://weibo.com/ioslive)
 
 PLReader can split text into multiple pages and provide a good reading experience written in Swift.
 
@@ -78,3 +77,11 @@ func addChapter(resourcesName: String, resourcesChapterID: String, currentChapte
 ```
 
 - when add data complete call show method, you will see the following
+
+## Credits
+
+PLReader is owned and maintained by the [PlayLive](http://www.ioslive.com). You can follow them on WeiBo at [@放飞吧小熊])(http://weibo.com/ioslive) for project updates and releases.
+
+## License
+
+PLReader is released under the MIT License. [See LICENSE](https://github.com/PlayLive/PLReader/blob/master/LICENES)
