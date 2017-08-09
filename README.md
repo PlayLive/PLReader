@@ -41,13 +41,18 @@ class ViewController: PLReaderViewController {
 
     override func requestNext(chapterID: String) {
 
+      //请求下一章的数据，并添加到数据集
     }
 
     override func requestPrev(chapterID: String) {
 
+      //请求上一章的数据，并添加到数据集
+
     }
 
     override func changePageComplete(chapterID: String) {
+
+      //更新为要显示的数据
 
     }
 }
@@ -78,9 +83,11 @@ func addChapter(resourcesName: String, resourcesChapterID: String, currentChapte
 
 - when add data complete call show method, you will see the following
 
+![PLReader Test](https://github.com/PlayLive/PLReader/blob/master/Test.gif)
+
 ## Credits
 
-PLReader is owned and maintained by the [PlayLive](http://www.ioslive.com). You can follow them on WeiBo at [@放飞吧小熊])(http://weibo.com/ioslive) for project updates and releases.
+PLReader is owned and maintained by the [PlayLive](http://www.ioslive.com). You can follow them on WeiBo at [@放飞吧小熊](http://weibo.com/ioslive) for project updates and releases.
 
 ## License
 
