@@ -5,11 +5,11 @@
 
 PLReader can split text into multiple pages and provide a good reading experience written in Swift.
 
--[Features](#features)
--[Requirements](#requirements)
--[Usage](#usage)
--[Credits](#credits)
--[License](#license)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
 ## Features
 
