@@ -82,7 +82,7 @@ class PLReaderPageViewController: UIPageViewController, UIPageViewControllerDele
     
     func showModel(model: PLChapterGroupModel) {
         
-        self.view.backgroundColor = PLTextConfigModel.share.backgroundColor
+        self.view.backgroundColor = PLTextConfigModel.shared.backgroundColor
         
         chapterGroupModel = model
         if chapterGroupModel == nil {
@@ -104,7 +104,7 @@ class PLReaderPageViewController: UIPageViewController, UIPageViewControllerDele
         }
         
         if pageModel != nil && contentController != nil {
-            contentController!.showFrame(frame: pageModel!.frameRef!, config: PLTextConfigModel.share)
+            contentController!.showFrame(frame: pageModel!.frameRef!, config: PLTextConfigModel.shared)
         }
     }
     

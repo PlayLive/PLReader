@@ -49,7 +49,7 @@ class PLReaderViewController: UIViewController, PLReaderPageViewControllerDelega
     
     func show() {
         pageViewController.showModel(model: chapterGroupModel)
-        view.backgroundColor = PLTextConfigModel.share.backgroundColor
+        view.backgroundColor = PLTextConfigModel.shared.backgroundColor
     }
     
     func addChapter(text: String, chapterID: String, currentChapterID: String, type: ChapterPostionType) -> PLChapterModel? {
@@ -71,7 +71,7 @@ class PLReaderViewController: UIViewController, PLReaderPageViewControllerDelega
     
     func createChapterModel(text: String, chapterID: String) -> PLChapterModel? {
     
-        let chapterModel: PLChapterModel = PLTextHandleManager.handleText(text: text, configModel: PLTextConfigModel.share)
+        let chapterModel: PLChapterModel = PLTextHandleManager.handleText(text: text, configModel: PLTextConfigModel.shared)
         chapterModel.chapterID = chapterID
         
         return chapterModel

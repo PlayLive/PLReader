@@ -26,7 +26,7 @@ class ViewController: PLReaderViewController {
     }
     
     override func initCustomView() {
-        PLTextConfigModel.share.contextRect = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width - 40, height: UIScreen.main.bounds.height - 40)
+        PLTextConfigModel.shared.contextRect = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width - 40, height: UIScreen.main.bounds.height - 40)
     }
     
     func addChapter(resourcesName: String, resourcesChapterID: String, currentChapterID: String, prevChapterID: String, nextChapterID: String, postionType: ChapterPostionType) {

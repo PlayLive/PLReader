@@ -11,13 +11,10 @@ import CoreText
 
 class PLTextConfigModel: NSObject {
     
-    static var instance: PLTextConfigModel?
+    private let instance: PLTextConfigModel = PLTextConfigModel()
     
-    class var share: PLTextConfigModel {
-        if instance == nil {
-            instance = PLTextConfigModel()
-        }
-        return instance!
+    class var shared: PLTextConfigModel {
+        return instance
     }
     
     let TextConfigBgColors: [UIColor] = [
